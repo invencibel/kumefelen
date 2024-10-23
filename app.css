@@ -1,0 +1,114 @@
+/* Paleta de colores */
+:root {
+    --primary-color: #C3A7E7; /* Lavanda suave */
+    --secondary-color: #8AB08F; /* Verde salvia */
+    --accent-color: #2E2E2E; /* Gris pizarra */
+    --background-color: #F9F8F5; /* Beige suave */
+    --text-color: #2E2E2E; /* Texto principal */
+}
+
+/* Estilos básicos */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+}
+ h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+h1.logo {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* Encabezado */
+.header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    font-size: 1.2em;
+}
+
+/* Sección principal */
+.hero {
+    padding: 50px 0;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.benefits-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    margin: 0 15px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+.hero-image {
+    width: 100%; /* O cualquier otro tamaño como 50% o 300px */
+    max-width: 300px; /* Establece un ancho máximo */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+

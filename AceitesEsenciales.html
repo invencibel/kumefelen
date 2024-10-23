@@ -1,36 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-<head> 
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACEITES ESENCIALES</title>
+    <title>Aceites Esenciales</title>
     <style>
-        body{
-            background-color: rgba(205, 187, 245, 0.96);
+        /* Paleta de colores */
+        :root {
+            --primary-color: #C3A7E7; /* Lavanda suave */
+            --secondary-color: #8AB08F; /* Verde salvia */
+            --accent-color: #2E2E2E; /* Gris pizarra */
+            --background-color: #F9F8F5; /* Beige suave */
+            --text-color: #2E2E2E; /* Texto principal */
         }
-        .contenedor{
-          background-color: rgba(138, 53, 216, 0.622);
-          padding: 35px;
+
+        /* Estilos básicos */
+        body {
+            background-color: var(--background-color);
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        .contenedor {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            background-color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+        }
+
+        h1, h2 {
+            color: var(--accent-color);
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+            max-width: 800px;
+            margin: auto;
         }
     </style>
 </head>
-<body> 
-    
-    <div style="font-size: 20px ;" class=" contenedor">  
-        
-        <a style="background-color: rgb(2, 0, 3);" href="index.html">HOME</a>          <a style="background-color: black;" href="Tienda.html">TIENDA</a>                            <a style="background-color: black;" href="nosotros.html">NOSOTRAS</a>      <a style="background-color:black" href="propiedadesybeneficios.html">PROPIEDADES Y BENEFICIOS </a>
-    
+<body>
+
+    <!-- Contenedor de navegación -->
+    <div class="contenedor">
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="Tienda.html">TIENDA</a>
+            <a href="nosotros.html">NOSOTRAS</a>
+            <a href="propiedadesybeneficios.html">PROPIEDADES Y BENEFICIOS</a>
+        </nav>
     </div>
 
-     <h1 style="font-size: 45px;">Aceites Esenciales</h1> 
-    <p> Dentro de las plantas en las raíces, semillas, flores, corteza, se encuentran compuestos químicos naturales concentrados y muy potentes.</p>
-       <p> Estos compuestos naturales son aceites esenciales, un regalo de la tierra. Preparada para multiples usos con el poder de la planta</p>
-      
-       <img src=" https://i.pinimg.com/564x/02/3e/4e/023e4e890623383f5be1dbee29faaeb7.jpg" alt=" "width="300"> 
-        
-        <h2 style="font-size: 45px;">¿Cómo actuan estas esencias?</h2>
-        <p>Los aceites esenciales pueden penetrar a través del olfato o la piel. </p>
-        <p> Al percibir la presencia de este se genera un estímulo en el sistema olfativo o en el sistema circulatorio a través de la piel, que envían señales al sistema límbico que actúan directamente en regiones asociadas con las emociones y con procesos vitales.</p>
+    <!-- Contenido principal -->
+    <h1>Aceites Esenciales</h1>
+    <p>Dentro de las plantas, en las raíces, semillas, flores y cortezas, se encuentran compuestos químicos naturales concentrados y muy potentes.</p>
+    <p>Estos compuestos naturales son aceites esenciales, un regalo de la tierra, preparados para múltiples usos con el poder de la planta.</p>
+
+    <!-- Imagen de aceites esenciales -->
+    <img src="https://i.pinimg.com/564x/02/3e/4e/023e4e890623383f5be1dbee29faaeb7.jpg" alt="Aceites esenciales">
+
+    <!-- Sección sobre cómo actúan -->
+    <h2>¿Cómo actúan estas esencias?</h2>
+    <p>Los aceites esenciales pueden penetrar a través del olfato o la piel.</p>
+    <p>Al percibir su presencia, se genera un estímulo en el sistema olfativo o en el sistema circulatorio a través de la piel, que envían señales al sistema límbico, actuando directamente en regiones asociadas con las emociones y procesos vitales.</p>
 
 </body>
 </html>
